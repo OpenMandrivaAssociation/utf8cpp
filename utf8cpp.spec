@@ -55,10 +55,10 @@ This project currently only contains header files, which can be found in the
         -DUTF8_TESTS=ON \
         -DUTF8_SAMPLES=ON
 
-%cmake_build
+%make_build
 
 %install
-%cmake_install
+%make_install
 
 cd %{buildroot}%{_includedir}
 ln -s utf8cpp/utf8.h ./
@@ -67,10 +67,6 @@ for f in {{un,}checked,core,cpp11}.h ; do
     ln -s ../utf8cpp/utf8/${f} utf8/
 done
 cd ..
-
-
-%check
-%cmake_build test
 
 %files devel
 %doc README.md samples/docsample.cpp
