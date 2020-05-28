@@ -58,7 +58,7 @@ This project currently only contains header files, which can be found in the
 %make_build
 
 %install
-%make_install
+%make_install -C build
 
 cd %{buildroot}%{_includedir}
 ln -s utf8cpp/utf8.h ./
