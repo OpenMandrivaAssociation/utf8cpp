@@ -3,16 +3,14 @@
 
 Summary:	A simple, portable and lightweight library for handling UTF-8 encoded strings
 Name:		utf8cpp
-Version:	3.1.1
-Release:	2
+Version:	4.0.6
+Release:	1
 Group:		Development/C++
 License:	Boost
 URL:		https://github.com/nemtrif/utfcpp
 Source0:	https://github.com/nemtrif/utfcpp/archive/v%{version}/utfcpp-%{version}.tar.gz
-Patch0:		%{name}-use-system-gtest.patch
-# put cmake import file in arch-agnostic directory
-Patch1:		%{name}-noarch.patch
 BuildArch:	noarch
+
 BuildRequires:	cmake
 BuildRequires:	pkgconfig(gtest)
 
@@ -69,7 +67,7 @@ done
 cd ..
 
 %files devel
-%doc README.md samples/docsample.cpp
+%doc README.md
 %{_includedir}/utf8.h
 %dir %{_includedir}/utf8
 %{_includedir}/utf8/checked.h
@@ -77,4 +75,4 @@ cd ..
 %{_includedir}/utf8/cpp11.h
 %{_includedir}/utf8/unchecked.h
 %{_includedir}/utf8cpp/
-%{_datadir}/cmake/utf8cpp
+%{_datadir}/utf8cpp/cmake/
