@@ -9,7 +9,7 @@ Group:		Development/C++
 License:	Boost
 URL:		https://github.com/nemtrif/utfcpp
 Source0:	https://github.com/nemtrif/utfcpp/archive/v%{version}/utfcpp-%{version}.tar.gz
-Patch0:		%{name}-use-system-gtest.patch
+#Patch0:		%{name}-use-system-gtest.patch
 # put cmake import file in arch-agnostic directory
 Patch1:		%{name}-noarch.patch
 BuildArch:	noarch
