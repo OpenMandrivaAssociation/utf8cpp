@@ -75,4 +75,4 @@ cd ..
 %{_includedir}/utf8/cpp11.h
 %{_includedir}/utf8/unchecked.h
 %{_includedir}/utf8cpp/
-%{_datadir/utf8cpp/cmake/
+%{_datadir}/utf8cpp/cmake/
