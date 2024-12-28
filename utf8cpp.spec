@@ -69,7 +69,7 @@ done
 cd ..
 
 %files devel
-%doc README.md samples/docsample.cpp
+%doc README.md
 %{_includedir}/utf8.h
 %dir %{_includedir}/utf8
 %{_includedir}/utf8/checked.h
@@ -77,4 +77,4 @@ cd ..
 %{_includedir}/utf8/cpp11.h
 %{_includedir}/utf8/unchecked.h
 %{_includedir}/utf8cpp/
-%{_datadir}/cmake/utf8cpp
+#{_datadir}/cmake/utf8cpp
