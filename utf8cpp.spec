@@ -3,8 +3,8 @@
 
 Summary:	A simple, portable and lightweight library for handling UTF-8 encoded strings
 Name:		utf8cpp
-Version:	3.1.1
-Release:	2
+Version:	4.0.6
+Release:	1
 Group:		Development/C++
 License:	Boost
 URL:		https://github.com/nemtrif/utfcpp
