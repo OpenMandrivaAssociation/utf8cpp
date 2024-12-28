@@ -11,7 +11,7 @@ URL:		https://github.com/nemtrif/utfcpp
 Source0:	https://github.com/nemtrif/utfcpp/archive/v%{version}/utfcpp-%{version}.tar.gz
 #Patch0:		%{name}-use-system-gtest.patch
 # put cmake import file in arch-agnostic directory
-Patch1:		%{name}-noarch.patch
+#Patch1:		%{name}-noarch.patch
 BuildArch:	noarch
 BuildRequires:	cmake
 BuildRequires:	pkgconfig(gtest)
