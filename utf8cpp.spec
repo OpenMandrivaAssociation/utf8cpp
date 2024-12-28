@@ -9,6 +9,8 @@ Group:		Development/C++
 License:	Boost
 URL:		https://github.com/nemtrif/utfcpp
 Source0:	https://github.com/nemtrif/utfcpp/archive/v%{version}/utfcpp-%{version}.tar.gz
+BuildArch:	noarch
+
 BuildRequires:	cmake
 BuildRequires:	pkgconfig(gtest)
 
@@ -73,4 +75,4 @@ cd ..
 %{_includedir}/utf8/cpp11.h
 %{_includedir}/utf8/unchecked.h
 %{_includedir}/utf8cpp/
-%{_libdir}/utf8cpp/cmake/
+%{_datadir/utf8cpp/cmake/
