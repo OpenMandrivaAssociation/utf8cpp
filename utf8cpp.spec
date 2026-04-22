@@ -13,6 +13,7 @@ Patch0: utf8cpp-cmake-config-dir.patch
 BuildArch:	noarch
 
 BuildRequires:	cmake
+BuildRequires: make
 BuildRequires:	pkgconfig(gtest)
 
 
