@@ -3,7 +3,7 @@
 
 Summary:	A simple, portable and lightweight library for handling UTF-8 encoded strings
 Name:		utf8cpp
-Version:	4.0.6
+Version:	4.0.9
 Release:	1
 Group:		Development/C++
 License:	Boost
